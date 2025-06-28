@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COSC Commit Counter - HackWeek Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🚀 COSC</div>
+            <div class="subtitle">Open Source Community</div>
+            <div class="event-tag">HackWeek Live Tracker</div>
+        </div>
+
+        <div class="counter-display">
+            <div class="counter-label">Total Commits</div>
+            <div class="counter-value" id="counterValue">0</div>
+        </div>
+
+        <div class="buttons">
+            <button class="btn btn-increment" id="incrementBtn" onclick="incrementCounter()">
+                ➕ New Commit
+            </button>
+            <button class="btn btn-decrement" id="decrementBtn" onclick="decrementCounter()">
+                ↩️ Revert
+            </button>
+            <button class="btn btn-reset" onclick="resetCounter()">
+                🔄 Reset Day
+            </button>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-label">Increments</div>
+                <div class="stat-value" id="incrementCount">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Reverts</div>
+                <div class="stat-value" id="decrementCount">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Resets</div>
+                <div class="stat-value" id="resetCount">0</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
