@@ -1,4 +1,3 @@
-# Mini-JavaScript-Function-Showdown
 # 🚀 COSC Commit Counter - HackWeek Tracker
 
 A real-time commit tracking tool for the CBIT Open Source Community (COSC) HackWeek event. This simple yet powerful web application helps track community progress by simulating live commit counting with an intuitive and engaging interface.
